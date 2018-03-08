@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1806B5FC204DE05500F84507 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1806B5FB204DE05500F84507 /* main.cpp */; };
-		1806B603204DE46200F84507 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1806B602204DE46200F84507 /* test.cpp */; };
 		187933C020518DE1005E8E45 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187933BE20518DE1005E8E45 /* MergeSort.cpp */; };
 		187933C4205190B7005E8E45 /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 187933C1205190B6005E8E45 /* libtbbmalloc.dylib */; };
 		187933C5205190B7005E8E45 /* libtbbmalloc_proxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 187933C2205190B7005E8E45 /* libtbbmalloc_proxy.dylib */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		1806B5F8204DE05500F84507 /* distributed_algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = distributed_algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		1806B5FB204DE05500F84507 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1806B602204DE46200F84507 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		187933BE20518DE1005E8E45 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		187933BF20518DE1005E8E45 /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 		187933C1205190B6005E8E45 /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtbbmalloc.dylib; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 		18793434205190F7005E8E45 /* tbb_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tbb_thread.h; sourceTree = "<group>"; };
 		18793435205190F7005E8E45 /* tbbmalloc_proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tbbmalloc_proxy.h; sourceTree = "<group>"; };
 		18793436205190F7005E8E45 /* tick_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tick_count.h; sourceTree = "<group>"; };
-		187934372051B7E5005E8E45 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		187934382051D876005E8E45 /* PrefixSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrefixSum.cpp; sourceTree = "<group>"; };
 		187934392051D876005E8E45 /* PrefixSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrefixSum.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,8 +185,6 @@
 			children = (
 				187933C7205190F7005E8E45 /* tbb */,
 				1806B5FB204DE05500F84507 /* main.cpp */,
-				1806B602204DE46200F84507 /* test.cpp */,
-				187934372051B7E5005E8E45 /* test.h */,
 				187933BE20518DE1005E8E45 /* MergeSort.cpp */,
 				187933BF20518DE1005E8E45 /* MergeSort.hpp */,
 				187934382051D876005E8E45 /* PrefixSum.cpp */,
@@ -397,7 +392,6 @@
 				1806B5FC204DE05500F84507 /* main.cpp in Sources */,
 				1879343A2051D876005E8E45 /* PrefixSum.cpp in Sources */,
 				187933C020518DE1005E8E45 /* MergeSort.cpp in Sources */,
-				1806B603204DE46200F84507 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
