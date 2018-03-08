@@ -15,22 +15,6 @@
 using namespace std;
 
 template <class T>
-int binarySearch(vector<T> arr, int first, int last, int value, std::function<bool(int, int)> compare) {
-    if (last > first) {
-        int mid = first + (last - first) / 2;
-        if (arr[mid] == value)
-            return mid;
-        
-        if (compare(arr[mid], value))
-            return binarySearch(arr, first, mid - 1, value, compare);
-
-        return binarySearch(arr, mid + 1, last, value, compare);
-    }
-    
-    return -1;
-}
-
-template <class T>
 int binarySearch(vector<T>& vector, int first, int last, int value, int position, std::function<bool(int, int)> compare) {
     if (last == first + 1) {
         return compare(value, vector[first]) ? ++position : position;
