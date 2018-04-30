@@ -99,10 +99,3 @@ void mergeSort(vector<T>& vector, int first, int last) {
     }
     
 }
-
-template <class T>
-void sort(vector<T>& vector) {
-    tbb::task_scheduler_init init(4);
-    mergeSort(vector, 0, vector.size());
-    printArr(vector);
-}

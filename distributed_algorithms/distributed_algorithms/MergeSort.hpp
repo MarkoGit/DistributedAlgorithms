@@ -13,6 +13,6 @@
 #include <vector>
 
 template <class T>
-void sort(std::vector<T>& vector);
+void mergeSort(vector<T>& vector, int first, int last);
 
 #endif /* MergeSort_hpp */
